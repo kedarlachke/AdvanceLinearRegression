@@ -1,52 +1,48 @@
-# Project Name
-> Outline a brief description of your project.
+# House price Prediction 
+> Predicting the prices of the the house using Advance Linear Regression using Ridge and Lasso Regression methods.
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Failed Linear Regression attempt
+* Ridge Regression
+* Lasso Regression
+* 
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Alpha value is 0.05 using Ridge method
+- Alpha value is 50 using Lasso method
+  
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
+- If its is difficult to find significant variable using Linear regression, Go with Rigde or Lasso Linear Regression as per the business requirement
+- If the business thinks all the parameters are important, use Ridge Linear Regression
+- If the business want to all the parameters are important, use Ridge Linear Regression
 - Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3
+- pandas - version 2.0.3
+- numpy - version 1.25.2
+- seaborn - version 0.12.2
+- sklearn - version 1.1
+- statsmodels - version 0.14.0
+- matplotlib - version 3.7.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
+
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Upgrad Tutors
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@kedarlachke] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
